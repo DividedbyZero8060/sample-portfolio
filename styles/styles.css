@@ -18,11 +18,19 @@ nav{
     "wdth" 100;
    color: #474747;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav > .nav-title{
@@ -59,6 +67,7 @@ nav ul li>a:visited {
     border: none;
 
 }
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -96,3 +105,40 @@ nav ul li>a:visited {
     color: #FD6E0A;
     border: 1.5px solid #FD6E0A;
 }
+
+
+.about {
+    margin: 80px 160px;
+    padding: 100px 120px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+.about-description{
+    font-size: 16px;
+}
+.about > .about-items .item-description{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.skills .skill-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.skills .about-skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+}
+
